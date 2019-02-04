@@ -1,5 +1,3 @@
 import test from 'ava';
 
-test(t => {
-  t.pass('👌');
-});
+test.todo('Add CLI output test')
