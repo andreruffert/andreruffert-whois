@@ -1,21 +1,26 @@
 {
   "name": "andreruffert",
   "version": "1.0.0",
-  "description": "?",
+  "description": "A personal CLI card of André Ruffert (@andreruffert)",
   "license": "MIT",
   "repository": "andreruffert/andreruffert",
   "author": {
     "name": "André Ruffert",
     "url": "andreruffert.com"
   },
+  "bin": "cli.js",
   "scripts": {
     "test": "ava"
   },
   "files": [
-    "index.js"
+    "cli.js"
   ],
-  "keywords": [],
   "devDependencies": {
-    "ava": "^0.24.0"
+    "ava": "^1.2.0"
+  },
+  "dependencies": {
+    "boxen": "^2.1.0",
+    "meow": "^5.0.0",
+    "terminal-link": "^1.2.0"
   }
 }
