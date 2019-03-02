@@ -4,6 +4,8 @@
 
 > A personal CLI card
 
+<img src="screenshot.png" width="504">
+
 ## Usage
 
 ```console
