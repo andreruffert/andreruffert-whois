@@ -1,17 +1,33 @@
 # andreruffert
 
-[![Build Status](https://travis-ci.org/andreruffert/andreruffert.svg?branch=master)](https://travis-ci.org/andreruffert/andreruffert)
+> Meta package for André Ruffert
 
-> A personal CLI card
+[![Test status](https://github.com/andreruffert/andreruffert-whois/actions/workflows/test.yml/badge.svg)](https://github.com/andreruffert/andreruffert-whois/actions/workflows/test.yml)
+[![npm version](https://img.shields.io/npm/v/andreruffert.svg)](https://www.npmjs.com/package/andreruffert)
+[![npm downloads](https://img.shields.io/npm/dm/andreruffert?logo=npm)](https://www.npmjs.com/package/andreruffert)
 
-<img src="screenshot.png" width="504">
+## Install
+
+```shell
+npm install andreruffert
+```
 
 ## Usage
 
-```console
-$ npx andreruffert
+### CLI
+
+```shell
+npx andreruffert
+```
+
+### Programmatic
+
+```js
+import andreruffert from 'andreruffert';
+
+andreruffert();
 ```
 
 ## License
 
-MIT © [André Ruffert](http://andreruffert.com)
+MIT © [André Ruffert](https://andreruffert.com)

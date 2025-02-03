@@ -1,26 +1,35 @@
 {
   "name": "andreruffert",
-  "version": "1.1.1",
-  "description": "A personal CLI card of André Ruffert (@andreruffert)",
-  "license": "MIT",
-  "repository": "andreruffert/andreruffert",
-  "author": {
-    "name": "André Ruffert",
-    "url": "andreruffert.com"
+  "version": "37.0.0",
+  "description": "Meta package for André Ruffert",
+  "type": "module",
+  "main": "./src/index.js",
+  "bin": "./src/cli.js",
+  "engines": {
+    "node": ">=18",
+    "npm": ">=9"
   },
-  "bin": "cli.js",
+  "files": ["src"],
   "scripts": {
-    "test": "ava"
+    "check": "biome check --write",
+    "lint": "biome ci",
+    "test": "node --test \"./test/*.js\""
   },
-  "files": [
-    "cli.js"
-  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andreruffert/andreruffert-whois.git"
+  },
+  "author": "André Ruffert",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andreruffert/andreruffert-whois/issues"
+  },
+  "homepage": "https://github.com/andreruffert/andreruffert-whois#readme",
+  "volta": {
+    "node": "22.13.1",
+    "npm": "11.1.0"
+  },
   "devDependencies": {
-    "ava": "^1.2.0"
-  },
-  "dependencies": {
-    "boxen": "^2.1.0",
-    "meow": "^5.0.0",
-    "terminal-link": "^1.2.0"
+    "@biomejs/biome": "1.9.4"
   }
 }
