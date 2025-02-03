@@ -4,12 +4,16 @@
   "description": "Meta package for André Ruffert",
   "type": "module",
   "main": "./src/index.js",
-  "bin": "./src/cli.js",
+  "bin": {
+    "andreruffert": "src/cli.js"
+  },
   "engines": {
     "node": ">=18",
     "npm": ">=9"
   },
-  "files": ["src"],
+  "files": [
+    "src"
+  ],
   "scripts": {
     "check": "biome check --write",
     "lint": "biome ci",
