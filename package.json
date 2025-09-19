@@ -1,6 +1,6 @@
 {
   "name": "andreruffert",
-  "version": "37.0.0",
+  "version": "38.0.0",
   "description": "Meta package for André Ruffert",
   "type": "module",
   "main": "./src/index.js",
